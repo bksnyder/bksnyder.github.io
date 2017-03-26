@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli');
+
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+}
+
+p {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0 200px;
+}
+
+.first-paragraph {
+	padding-bottom: 10px;
+}
+
+li {
+	font-family: 'Muli', sans-serif;
+}
+
+body{
+	background: url('../images/roughwall.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header, footer {
+	background-color: #f2f3ef;
+	text-align: center;
+	padding: 15px 30px;
+}
+
+header img {
+	width: 50%;
+	border-radius: 10px;
+}
+
+.main-content {
+	background-color: #808f85;
+	padding: 10px 0;
+	border-top: 2px solid #cfd11a;
+}
+
+.project-copy {
+	margin: 0 auto;
+}
+
+.main-content ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-content li {
+	padding: 10px;
+	display: inline;
+	/*inline horizontally spaces them*/
+}
+
+a {
+	color: #cfd11a;
+	text-decoration: none;
+}
+
+.main-content p {
+	padding: 10px 40px;
+}
+
+.main-content h2 {
+	text-align: center;
+}
+
+#projects {
+	background-color: #808f85;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.project {
+	width: 30%;
+	display: inline-block;
+	background-color: #f2e9dc;
+	margin: 1.66%;
+	border-radius: 15px;
+	float: left;
+}
+
+.project img{
+	max-width: 100%;
+}
+
