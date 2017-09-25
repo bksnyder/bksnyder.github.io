@@ -1,0 +1,9 @@
+body {
+	background: linear-gradient(90deg, fuchsia, yellow);
+	background-size: cover;
+	color: white;
+}
+
+h1 {
+	font-size:72px;
+}
