@@ -1,1 +1,29 @@
-styles.css
+h1 {
+	font-family: 'Merriweather', serif;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+H2 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+a {
+	color: fuchsia;;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size; 12px;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+div {
+	text-align: center;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 10%;
+}
