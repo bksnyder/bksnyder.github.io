@@ -1,6 +1,6 @@
 h1 {
 	font-family: 'Merriweather', serif;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	text-align: center;
 }
 
@@ -25,5 +25,5 @@ div {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 10%;
+	margin: 0 20%;
 }
