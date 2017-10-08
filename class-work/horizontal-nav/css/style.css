@@ -2,3 +2,21 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+nav {
+	background: black;
+}
+
+a {
+	color: #ccc;
+	display: inline-block;
+	text-decoration: none;
+	padding: 25px;
+	margin-right: -4px;
+}
+
+a:hover {
+	color: #ffffff;
+	background-color: #ff7401;
+}
+
