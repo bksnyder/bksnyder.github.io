@@ -1,0 +1,35 @@
+
+.headline {
+	text-align: center;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: pink;
+}
+
+p {
+	text-align: center;
+	display: inline-block;
+}
+
+
+#celsius {
+	width: 400px;
+	margin:	20px 0;
+}
+
+#fahrenheit {
+	width: 400px;
+	margin:	20px 0;	
+}
+
+input {
+	text-align: center;
+	padding: 10px 20px;
+	display: inline-block;
+}
