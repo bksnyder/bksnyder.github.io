@@ -8,23 +8,30 @@
 	margin: 0 auto;
 }
 
+.temperatures {
+	width: 600px;
+	margin: 0 auto;
+}
+
 body {
 	background-color: pink;
+	margin-top: 200px;
 }
 
 p {
 	text-align: center;
 	display: inline-block;
+	margin: 0 35px;
 }
 
 
 #celsius {
-	width: 400px;
+	width: 200px;
 	margin:	20px 0;
 }
 
 #fahrenheit {
-	width: 400px;
+	width: 200px;
 	margin:	20px 0;	
 }
 
@@ -32,4 +39,9 @@ input {
 	text-align: center;
 	padding: 10px 20px;
 	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid white;
 }
+
+
+
