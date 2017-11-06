@@ -1,0 +1,59 @@
+body {
+	background-color: #FFD8CD;
+}
+
+.header {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#click-me {
+	background: #FFF;
+	padding: 10px 30px;
+	width: 300px;	
+	position: center;
+}
+
+#click-again {
+	background: #FFF;
+	padding: 10px 0;
+	width: 300px;
+	position: center;	
+}	
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.link {
+	margin: 0 auto;
+	padding: 20px 20px;
+	display: inline-block;
+}
+
+nav	{
+	margin: 20px auto;
+}
+
+.buttons {
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.content-container {
+	width: 100%;
+	background-color: white;
+	margin: 10px auto;
+}
+
+.description {
+	padding: 30px;
+	text-align: left;
+}
+
+.description {
+	font-size: 48px;
+}
+
