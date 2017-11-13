@@ -1,10 +1,23 @@
+/*font-family: 'Playfair Display SC', serif;
+font-family: 'Open Sans', sans-serif;*/
+
 body {
 	background-color: #FFD8CD;
 }
 
-.header {
-	margin-top: 30px;
+/*#media {
+	display: none;
+}*/
+
+.name {
+	margin-top: 50px;
 	display: inline-block;
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 1.8px;
+	font-size: 44px;
+	text-decoration: none;	
+	color: black;
+
 }
 
 #click-me {
@@ -29,12 +42,15 @@ body {
 
 .link {
 	margin: 0 auto;
-	padding: 20px 20px;
+	padding: 0 20px;
 	display: inline-block;
+	text-decoration: none;
+	color: black;
 }
 
 nav	{
-	margin: 20px auto;
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .buttons {
@@ -43,7 +59,7 @@ nav	{
 }
 
 .content-container {
-	width: 100%;
+	width: 75%;
 	background-color: white;
 	margin: 10px auto;
 }
@@ -51,9 +67,29 @@ nav	{
 .description {
 	padding: 30px;
 	text-align: left;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	width: 700px;
+	margin: 30px auto;
+	line-height: 42px;
 }
 
-.description {
-	font-size: 48px;
+video {
+	margin-top:	20px;
 }
+
+.fact {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.all-the-media {
+	background-color: white;
+}
+
+
+
+
 

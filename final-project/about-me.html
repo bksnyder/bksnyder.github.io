@@ -5,38 +5,52 @@
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
 
-		<div class="header">
-			<h1>BETHANY SNYDER</h1>
-		</div>
-
-		<nav class="nav">
-			<a class="link" href="index.html">WORK</a>
-			<a class="link" href="about-me.html">ABOUT ME</a>
-			<a class="link" href="contact.html">CONTACT</a>
-		</nav>
+		<header>
+			<a class="name" href="index.html">Bethany Snyder</a>
+			<nav>
+				<a class="link" href="index.html">WORK</a>
+				<a class="link" href="about-me.html">ABOUT ME</a>
+				<a class="link" href="contact.html">CONTACT</a>
+			</nav>
+		</header>
 
 		<div class="content-container">
 			<p class="description">Hi! I'm Bethany. I'm a product designer based in New York City. Click the button below to find out more about me :)
 			</p>
-		</div>
-	
-		<div class="media">
-			<video id="nicolas-cage" width="480" height="450" autoplay controls loop>
-			  	<source src="images/nicolas-cage.mp4" type="video/mp4">
-			</video>
-			<video id="gaga" width="480" height="320" autoplay controls loop>
-				<source src="images/gaga.mp4" type="video/mp4">
-			</video>
-		</div>
+
+				<div id="media">
+					<div id="media-1">
+						<video autoplay loop>
+						  	<source src="images/nicolas-cage.mp4" type="video/mp4">	
+						</video>
+							<p class="fact">I love Nicolas Cage.</p>
+					</div>	
+
+					<div id="media-2">
+						<video autoplay loop>
+							<source src="images/gaga.mp4" type="video/mp4">
+						</video>
+							<p class="fact">I love pizza, so does Lady Gaga.</p>
+					</div>
+
+					<div id="media-3">
+							<img src="images/portugal.jpg">
+							<p class="fact">I love pastels and concrete and Portugals.</p>
+					</div
+				</div>	
+
+		</div>	
 
 		<div class="buttons">
 			<button id="click-me">CLICK ME</button>
 			<button id="click-again">CLICK AGAIN</button>
 		</div>
+
 	</div>
 	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 	<script src="js/app.js"></script>

@@ -1,22 +1,31 @@
-$('#nicolas-cage').hide();
+$('#media-1').hide();
+$('#media-2').hide();
+$('#media-3').hide();
 $('#click-again').hide();
-$('#gaga').hide();
+
+
+var myMedia = ['nic', 'pizza', 'portugal'];
+
 
 
 $('#click-me').click(firstClick);
 $('#click-again').click(nextClick);
 
 function firstClick() {
-	$('#nicolas-cage').fadeIn();
-	$('.description').fadeOut();
+	$('#media-1').show();
+	$('.description').hide();
 	$('#click-me').hide();
 	$('#click-again').show();
+
 }
 
 function nextClick() {
-	$('#nicolas-cage').fadeOut();
-	$('#gaga').fadeIn();
+	$('#media-1').hide();
+	$('#media-2').show();
 }
+
+
+
 
 // Upon page load:
 // display opening .description and #click-me button
