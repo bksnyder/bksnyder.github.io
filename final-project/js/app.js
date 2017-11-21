@@ -1,12 +1,17 @@
+var about = $('#media-0');
 var nic = $('#media-1');
 var pizza = $('#media-2');
 var concrete = $('#media-3');
+var vet	= $('#media-4');
+var copenhagen = $('#media-5');
 nic.hide();
 pizza.hide();
 concrete.hide();
+vet.hide();
+copenhagen.hide();
 $('#click-again').hide();
 
-var myMedia = [nic, pizza, concrete];
+var myMedia = [nic, pizza, concrete, vet, copenhagen];
 var counter = 0;
 
 
@@ -16,7 +21,7 @@ $('#click-me').click(firstClick);
 console.log (counter)
 function firstClick (){
 	if (counter === 0) {
-		$('.description').hide();
+		$(about).hide();
 		$('#media').show();
 		myMedia[counter].show();
 		myMedia[myMedia.length - 1].hide();
