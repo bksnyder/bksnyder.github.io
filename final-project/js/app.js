@@ -1,17 +1,21 @@
 var about = $('#media-0');
 var nic = $('#media-1');
-var pizza = $('#media-2');
+var dancing = $('#media-2');
 var concrete = $('#media-3');
 var vet	= $('#media-4');
 var copenhagen = $('#media-5');
+var cal = $('#media-6');
+var fnl = $('#media-7');
 nic.hide();
-pizza.hide();
+dancing.hide();
 concrete.hide();
 vet.hide();
 copenhagen.hide();
+cal.hide();
+fnl.hide();
 $('#click-again').hide();
 
-var myMedia = [nic, pizza, concrete, vet, copenhagen];
+var myMedia = [nic, dancing, concrete, vet, copenhagen, cal, fnl];
 var counter = 0;
 
 
@@ -26,7 +30,7 @@ function firstClick (){
 		myMedia[counter].show();
 		myMedia[myMedia.length - 1].hide();
 	}
-	else if (counter !== 0 && counter < 5) {
+	else if (counter !== 0 && counter < 7) {
 		myMedia[counter - 1].hide();
 		myMedia[counter].show();	
 	}
