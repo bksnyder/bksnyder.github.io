@@ -6,6 +6,9 @@ var vet	= $('#media-4');
 var copenhagen = $('#media-5');
 var cal = $('#media-6');
 var fnl = $('#media-7');
+var withnail = $('#media-8');
+var mug = $('#media-9');
+
 nic.hide();
 dancing.hide();
 concrete.hide();
@@ -13,9 +16,12 @@ vet.hide();
 copenhagen.hide();
 cal.hide();
 fnl.hide();
+withnail.hide();
+mug.hide();
+
 $('#click-again').hide();
 
-var myMedia = [nic, dancing, concrete, vet, copenhagen, cal, fnl];
+var myMedia = [nic, dancing, concrete, vet, copenhagen, cal, fnl, withnail, mug];
 var counter = 0;
 
 
@@ -30,7 +36,7 @@ function firstClick (){
 		myMedia[counter].show();
 		myMedia[myMedia.length - 1].hide();
 	}
-	else if (counter !== 0 && counter < 7) {
+	else if (counter !== 0 && counter < 10) {
 		myMedia[counter - 1].hide();
 		myMedia[counter].show();	
 	}
