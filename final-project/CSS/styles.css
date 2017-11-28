@@ -55,6 +55,14 @@ nav	{
 	font-family: 'Lato', sans-serif;
 }
 
+.rule {
+	border-top: 5px solid #FFD7CA;
+	width: 200px; 
+	text-align: center;
+	display: inline-block;
+	margin-top: 50px;
+}
+
 .link:hover {
 	text-decoration: line-through;
 	color: #7F7F17;
@@ -93,35 +101,25 @@ nav	{
 	width: 90%;
 /*	background-color: white;*/
 	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+
 }
 
 .description {
-	padding-top: 100px;
+/*	padding-top: 100px;*/
 	text-align: center;
 	font-size: 36px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	letter-spacing: 1.3px;
 	width: 75%;
-	margin: 30px auto 5px auto;
+	margin: 0 auto;
 	line-height: 48px;
-	height: 250px;
+/*	height: 250px;*/
 	color: #E7967D;
-}
-
-.tidbit {
-	padding-top: 100px;
-	text-align: center;
-	font-size: 36px;
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	letter-spacing: 1.3px;
-	width: 60%;
-	margin: 30px auto 5px auto;
-	line-height: 48px;
-	height: 298px;
-	color: #E7967D;
-
 }
 
 .description-detail, .fact {
@@ -135,10 +133,6 @@ nav	{
 	text-align: center;
 }
 
-.description-detail {
-	border-top: 1px solid #E7967D;
-	width: 70%;
-}
 
 video, img {
 	margin: 20px auto 0;
@@ -149,7 +143,6 @@ video, img {
 	background-color: white;
 }
 
-
 .current {
 	font-weight: bold;
 }
@@ -158,64 +151,65 @@ video, img {
 
 	video, img {
 		margin: 20px auto 0;
-		height: 275px;
+		max-height: 350px;
+		max-width: 100%;
+		height: initial;
 	}
 
-	.description, .tidbit {
+	.description {
 		padding-top: 70px;
 		font-size: 28px;
 		line-height: 36px;
 		height: 203px;
 	}
 
-	.tidbit {
-		padding-top: 100px;
-		height: 223px;
+	.content-container {
+		height: 400px;
+		display: flex;
+		align-items: center;
 	}
 
-	.description-detail {
-		width: 75%;
+	#email {
+		display: inline-block;
 	}
 
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 375px) {
 /*	body {
 		background: blue;
 	}*/
 
 	.name {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.link {
 		padding: 0 10px;
 	}
 
-	video, img {
-		margin: 20px auto 0;
-		width: 100%;
-	}
-
-	.description, .tidbit {
-		padding-top: 20px;
+	.description {
+		display: inline-block;
+		align-items: center;
+		padding: 0;
+		width: 90%;
 		font-size: 24px;
-		line-height: 36px;
-/*		height: 203px;*/
-		margin-bottom: 20px;
 	}
 
-	.description-detail {
-		width: 100%;
+	.description-detail, .fact {
+		width: 70%;
+		font-size: 16px;
 	}
 
-	.container {
-		width: 100%;
-		margin: 0 auto;
+	.rule {
+		margin-top: 30px;
+
 	}
 
+	#email {
+		display: inline-block;
+	}
 }
-
 
 
 
