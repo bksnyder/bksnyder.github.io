@@ -179,6 +179,11 @@ video, img {
 /*	body {
 		background: blue;
 	}*/
+	.content-container {
+		height: 350px;
+		display: flex;
+		align-items: center;
+	}
 
 	.name {
 		font-size: 20px;
@@ -191,7 +196,7 @@ video, img {
 	.description {
 		display: inline-block;
 		align-items: center;
-		padding: 0;
+		padding-top: 30px;
 		width: 90%;
 		font-size: 24px;
 	}
@@ -202,7 +207,7 @@ video, img {
 	}
 
 	.rule {
-		margin-top: 30px;
+		margin-top: 0;
 
 	}
 
